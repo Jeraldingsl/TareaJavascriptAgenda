@@ -1,0 +1,81 @@
+/* Estilos para la página de agenda */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FBEFF2;
+    /* Cambiar a tono rosado */
+}
+
+header {
+    background-color: #FF4081;
+    /* Cambiar a tono rosado */
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #F8BBD0;
+    /* Cambiar a tono rosado */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"] {
+    padding: 5px;
+    border: 1px solid #FF4081;
+    /* Cambiar a tono rosado */
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px;
+    background-color: #FF4081;
+    /* Cambiar a tono rosado */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#mensaje {
+    margin-top: 10px;
+    color: red;
+}
+
+#registros p {
+    margin: 5px 0;
+    color: #333;
+}

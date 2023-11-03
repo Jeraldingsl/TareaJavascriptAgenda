@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Agenda</title>
+</head>
+
+<body>
+    <header>
+        <h1>Agenda</h1>
+    </header>
+
+    <main>
+        <section class="agregar-seccion">
+            <h2>Agregar Registro</h2>
+            <form id="agregar-form">
+                <div class="form-group">
+                    <label for="actividad">Actividad:</label>
+                    <input type="text" name="actividad" id="actividad" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" name="fecha" id="fecha" required>
+                </div>
+                <button type="submit">Agregar</button>
+            </form>
+            <div id="mensaje"></div>
+        </section>
+
+        <section class="registros-seccion">
+            <h2>Registros</h2>
+            <div id="registros">
+                <!-- Aquí se mostrarán los registros de las actividades -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Agenda. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
